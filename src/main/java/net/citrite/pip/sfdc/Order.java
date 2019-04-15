@@ -9,6 +9,7 @@ public class Order implements Serializable {
 	
 	private OrderHeader OrderHeader;
 	private List<OrderLineItem> OrderLineItems;
+	private Double orderTotalSRP;
 
 	public OrderHeader getOrderHeader() {
 		return this.OrderHeader;
@@ -25,6 +26,11 @@ public class Order implements Serializable {
 	public void setOrderLineItems(List<OrderLineItem> OrderLineItems) {
 		this.OrderLineItems = OrderLineItems;
 	}
+
+	public double getOrderTotalSRP() {
+	        //TODO
+                return 1000.00;
+        }
 
 	public Order(OrderHeader OrderHeader, List<OrderLineItem> OrderLineItems) {
 		this.OrderHeader = OrderHeader;
