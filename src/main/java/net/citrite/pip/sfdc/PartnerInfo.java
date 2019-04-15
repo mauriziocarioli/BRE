@@ -1,7 +1,7 @@
 package net.citrite.pip.sfdc;
 
 import java.io.Serializable;
-import java.time.LocalDate;
+import java.util.Date;
 
 public class PartnerInfo implements Serializable {
 
@@ -16,9 +16,9 @@ public class PartnerInfo implements Serializable {
 	private String Partner_Region;
 	private String Partner_Territory;
 	private String Partner_Compliance;
-	private LocalDate Partner_Mship_Start_Date;
-	private LocalDate Partner_Mship_End_Date;
-	private LocalDate Partner_Mship_Inception_Date;
+	private Date Partner_Mship_Start_Date;
+	private Date Partner_Mship_End_Date;
+	private Date Partner_Mship_Inception_Date;
 
 	public Tag getTags() {
 		return this.Tags;
@@ -92,31 +92,31 @@ public class PartnerInfo implements Serializable {
 		this.Partner_Compliance = Partner_Compliance;
 	}
 
-	public LocalDate getPartner_Mship_Start_Date() {
+	public Date getPartner_Mship_Start_Date() {
 		return this.Partner_Mship_Start_Date;
 	}
 
-	public void setPartner_Mship_Start_Date(LocalDate Partner_Mship_Start_Date) {
+	public void setPartner_Mship_Start_Date(Date Partner_Mship_Start_Date) {
 		this.Partner_Mship_Start_Date = Partner_Mship_Start_Date;
 	}
 
-	public LocalDate getPartner_Mship_End_Date() {
+	public Date getPartner_Mship_End_Date() {
 		return this.Partner_Mship_End_Date;
 	}
 
-	public void setPartner_Mship_End_Date(LocalDate Partner_Mship_End_Date) {
+	public void setPartner_Mship_End_Date(Date Partner_Mship_End_Date) {
 		this.Partner_Mship_End_Date = Partner_Mship_End_Date;
 	}
 
-	public LocalDate getPartner_Mship_Inception_Date() {
+	public Date getPartner_Mship_Inception_Date() {
 		return this.Partner_Mship_Inception_Date;
 	}
 
-	public void setPartner_Mship_Inception_Date(LocalDate Partner_Mship_Inception_Date) {
+	public void setPartner_Mship_Inception_Date(Date Partner_Mship_Inception_Date) {
 		this.Partner_Mship_Inception_Date = Partner_Mship_Inception_Date;
 	}
 
-	public PartnerInfo(Tag Tags, String Partner_Type, String Partner_Level, String Partner_Status, String Partner_Geo, String Partner_Area, String Partner_Region, String Partner_Territory, String Partner_Compliance, LocalDate Partner_Mship_Start_Date, LocalDate Partner_Mship_End_Date, LocalDate Partner_Mship_Inception_Date) {
+	public PartnerInfo(Tag Tags, String Partner_Type, String Partner_Level, String Partner_Status, String Partner_Geo, String Partner_Area, String Partner_Region, String Partner_Territory, String Partner_Compliance, Date Partner_Mship_Start_Date, Date Partner_Mship_End_Date, Date Partner_Mship_Inception_Date) {
 		this.Tags = Tags;
 		this.Partner_Type = Partner_Type;
 		this.Partner_Level = Partner_Level;

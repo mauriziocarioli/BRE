@@ -1,7 +1,7 @@
 package net.citrite.pip.sfdc;
 
 import java.io.Serializable;
-import java.time.LocalDate;
+import java.util.Date;
 
 public class RewardRegistration implements Serializable {
 
@@ -9,10 +9,10 @@ public class RewardRegistration implements Serializable {
 	
 	private String Registration_ID;
 	private String Incentive_Type;
-	private LocalDate Reward_Submitted_Date;
+	private Date Reward_Submitted_Date;
 	private Boolean BackendApplicable_Flag;
 	private Boolean FrontendApplicable_Flag;
-	private LocalDate Initial_Submitted_Date;
+	private Date Initial_Submitted_Date;
 
 	public String getRegistration_ID() {
 		return this.Registration_ID;
@@ -30,11 +30,11 @@ public class RewardRegistration implements Serializable {
 		this.Incentive_Type = Incentive_Type;
 	}
 
-	public LocalDate getReward_Submitted_Date() {
+	public Date getReward_Submitted_Date() {
 		return this.Reward_Submitted_Date;
 	}
 
-	public void setReward_Submitted_Date(LocalDate Reward_Submitted_Date) {
+	public void setReward_Submitted_Date(Date Reward_Submitted_Date) {
 		this.Reward_Submitted_Date = Reward_Submitted_Date;
 	}
 
@@ -62,15 +62,15 @@ public class RewardRegistration implements Serializable {
 		this.FrontendApplicable_Flag = FrontendApplicable_Flag;
 	}
 
-	public LocalDate getInitial_Submitted_Date() {
+	public Date getInitial_Submitted_Date() {
 		return this.Initial_Submitted_Date;
 	}
 
-	public void setInitial_Submitted_Date(LocalDate Initial_Submitted_Date) {
+	public void setInitial_Submitted_Date(Date Initial_Submitted_Date) {
 		this.Initial_Submitted_Date = Initial_Submitted_Date;
 	}
 
-	public RewardRegistration(String Registration_ID, String Incentive_Type, LocalDate Reward_Submitted_Date, Boolean BackendApplicable_Flag, Boolean FrontendApplicable_Flag, LocalDate Initial_Submitted_Date) {
+	public RewardRegistration(String Registration_ID, String Incentive_Type, Date Reward_Submitted_Date, Boolean BackendApplicable_Flag, Boolean FrontendApplicable_Flag, Date Initial_Submitted_Date) {
 		this.Registration_ID = Registration_ID;
 		this.Incentive_Type = Incentive_Type;
 		this.Reward_Submitted_Date = Reward_Submitted_Date;

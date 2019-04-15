@@ -1,31 +1,31 @@
 package net.citrite.pip.sfdc;
 
 import java.io.Serializable;
-import java.time.LocalDate;
+import java.util.Date;
 
 public class Info implements Serializable {
 
     private static final long serialVersionUID = 6967915924242214318L;
         
-    private LocalDate Request_DateTime;
-    private LocalDate Response_DateTime;
+    private Date Request_DateTime;
+    private Date Response_DateTime;
     private String Status;
     private String Interaction_Id;
     private String Source;
 
-    public LocalDate getRequest_DateTime() {
+    public Date getRequest_DateTime() {
         return this.Request_DateTime;
     }
 
-    public void setRequest_DateTime(LocalDate Request_DateTime) {
+    public void setRequest_DateTime(Date Request_DateTime) {
         this.Request_DateTime = Request_DateTime;
     }
 
-    public LocalDate getResponse_DateTime() {
+    public Date getResponse_DateTime() {
         return this.Response_DateTime;
     }
 
-    public void setResponse_DateTime(LocalDate Response_DateTime) {
+    public void setResponse_DateTime(Date Response_DateTime) {
         this.Response_DateTime = Response_DateTime;
     }
 
@@ -53,7 +53,7 @@ public class Info implements Serializable {
         this.Source = Source;
     }
 
-    public Info(LocalDate Request_DateTime, LocalDate Response_DateTime, String Status, String Interaction_Id, String Source) {
+    public Info(Date Request_DateTime, Date Response_DateTime, String Status, String Interaction_Id, String Source) {
         this.Request_DateTime = Request_DateTime;
         this.Response_DateTime = Response_DateTime;
         this.Status = Status;

@@ -2,7 +2,7 @@ package net.citrite.pip.canonical.bre;
 
 import java.io.Serializable;
 import java.util.List;
-import java.time.LocalDate;
+import java.util.Date;
 import net.citrite.pip.bre.Validation;
 import net.citrite.pip.sfdc.Request;
 import net.citrite.pip.sfdc.Info;
@@ -48,7 +48,7 @@ public class BREObjectSFDC implements Serializable {
         validation.setCheckType(checkType);
         validation.setCheckResult(checkResult);
         validation.setHeader(header);
-        validation.setCheckDate(LocalDate.now());
+        validation.setCheckDate(new Date());
 		this.Validations.add(validation);
 
 	}

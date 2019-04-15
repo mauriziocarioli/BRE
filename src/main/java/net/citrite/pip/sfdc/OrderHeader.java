@@ -1,7 +1,7 @@
 package net.citrite.pip.sfdc;
 
 import java.io.Serializable;
-import java.time.LocalDate;
+import java.util.Date;
 
 public class OrderHeader implements Serializable {
 
@@ -14,12 +14,12 @@ public class OrderHeader implements Serializable {
 	private String Contract_Type;
 	private String Contract_Level;
 	private String Contract_No;
-	private LocalDate Order_Creation_Date;
-	private LocalDate Order_Matched_Date;
+	private Date Order_Creation_Date;
+	private Date Order_Matched_Date;
 	private String Matched_Registration_ID;
 	private Boolean Shared_Reward_Flag;
 	private Boolean New_Customer_Flag;
-	private LocalDate PO_Date;
+	private Date PO_Date;
 	private String PO_Number;
 	private String Validation_Status;
 	private String Failure_Reasons;
@@ -85,19 +85,19 @@ public class OrderHeader implements Serializable {
 		this.Contract_No = Contract_No;
 	}
 
-	public LocalDate getOrder_Creation_Date() {
+	public Date getOrder_Creation_Date() {
 		return this.Order_Creation_Date;
 	}
 
-	public void setOrder_Creation_Date(LocalDate Order_Creation_Date) {
+	public void setOrder_Creation_Date(Date Order_Creation_Date) {
 		this.Order_Creation_Date = Order_Creation_Date;
 	}
 
-	public LocalDate getOrder_Matched_Date() {
+	public Date getOrder_Matched_Date() {
 		return this.Order_Matched_Date;
 	}
 
-	public void setOrder_Matched_Date(LocalDate Order_Matched_Date) {
+	public void setOrder_Matched_Date(Date Order_Matched_Date) {
 		this.Order_Matched_Date = Order_Matched_Date;
 	}
 
@@ -133,11 +133,11 @@ public class OrderHeader implements Serializable {
 		this.New_Customer_Flag = New_Customer_Flag;
 	}
 
-	public LocalDate getPO_Date() {
+	public Date getPO_Date() {
 		return this.PO_Date;
 	}
 
-	public void setPO_Date(LocalDate PO_Date) {
+	public void setPO_Date(Date PO_Date) {
 		this.PO_Date = PO_Date;
 	}
 
@@ -206,7 +206,7 @@ public class OrderHeader implements Serializable {
 	}
 
 
-	public OrderHeader(String Order_Type, String Order_ID, Double Order_Amount, String Award_Type, String Contract_Type, String Contract_Level, String Contract_No, LocalDate Order_Creation_Date, LocalDate Order_Matched_Date, String Matched_Registration_ID, Boolean Shared_Reward_Flag, Boolean New_Customer_Flag, LocalDate PO_Date, String PO_Number, String Validation_Status, String Failure_Reasons, Double Total_Partner_Eligible_Amount, Double Total_Promo_Amount, Double Total_Base_Amount, Double OrderDiscounts, String distribution_Channel) {
+	public OrderHeader(String Order_Type, String Order_ID, Double Order_Amount, String Award_Type, String Contract_Type, String Contract_Level, String Contract_No, Date Order_Creation_Date, Date Order_Matched_Date, String Matched_Registration_ID, Boolean Shared_Reward_Flag, Boolean New_Customer_Flag, Date PO_Date, String PO_Number, String Validation_Status, String Failure_Reasons, Double Total_Partner_Eligible_Amount, Double Total_Promo_Amount, Double Total_Base_Amount, Double OrderDiscounts, String distribution_Channel) {
 		this.Order_Type = Order_Type;
 		this.Order_ID = Order_ID;
 		this.Order_Amount = Order_Amount;

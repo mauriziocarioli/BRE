@@ -1,14 +1,14 @@
 package net.citrite.pip.bre;
 
 import java.io.Serializable;
-import java.time.LocalDate;
+import java.util.Date;
 
 public class Validation implements Serializable {
 
     private static final long serialVersionUID = -4509823521117930083L;
         
     private String CheckName;
-    private LocalDate CheckDate;
+    private Date CheckDate;
     private String CheckResult;
     private Boolean Header;
     private String OrderID;
@@ -23,11 +23,11 @@ public class Validation implements Serializable {
         this.CheckName = CheckName;
     }
 
-    public LocalDate getCheckDate() {
+    public Date getCheckDate() {
         return this.CheckDate;
     }
 
-    public void setCheckDate(LocalDate CheckDate) {
+    public void setCheckDate(Date CheckDate) {
         this.CheckDate = CheckDate;
     }
 
@@ -79,7 +79,7 @@ public class Validation implements Serializable {
         this.MergedStatus = MergedStatus;
     }
 
-    public Validation(String CheckName, LocalDate CheckDate, String CheckResult, Boolean Header, String OrderID, String CheckType, Boolean MergedStatus) {
+    public Validation(String CheckName, Date CheckDate, String CheckResult, Boolean Header, String OrderID, String CheckType, Boolean MergedStatus) {
         this.CheckName = CheckName;
         this.CheckDate = CheckDate;
         this.CheckResult = CheckResult;
