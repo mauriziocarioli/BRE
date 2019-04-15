@@ -2,6 +2,7 @@ package net.citrite.pip.canonical.bre;
 
 import java.io.Serializable;
 import java.util.List;
+import java.time.LocalDate;
 import net.citrite.pip.bre.Validation;
 import net.citrite.pip.sfdc.Request;
 import net.citrite.pip.sfdc.Info;
@@ -37,6 +38,19 @@ public class BREObjectSFDC implements Serializable {
 
 	public void setValidations(List<Validation> Validations) {
 		this.Validations = Validations;
+	}
+
+	public void registerValidation(String orderID, String checkName, String checkType, String checkResult, Boolean header) {
+
+		Validation validation = new Validation();
+        validation.setOrderID(orderID);
+        validation.setCheckName(checkName);
+        validation.setCheckType(checkType);
+        validation.setCheckResult(checkResult);
+        validation.setHeader(header);
+        validation.setCheckDate(LocalDate.now());
+		this.Validations.add(validation);
+
 	}
 
 	public String getPayout() {
