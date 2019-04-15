@@ -28,9 +28,14 @@ public class Order implements Serializable {
 	}
 
 	public double getOrderTotalSRP() {
-	        //TODO
-                return 1000.00;
-        }
+	    //TODO
+        return 1000.00;
+	}
+	
+	public boolean isFollowOn() {
+		//TODO
+		return true;
+	}
 
 	public Order(OrderHeader OrderHeader, List<OrderLineItem> OrderLineItems) {
 		this.OrderHeader = OrderHeader;
