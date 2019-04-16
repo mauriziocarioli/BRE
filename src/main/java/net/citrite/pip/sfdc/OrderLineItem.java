@@ -16,6 +16,7 @@ public class OrderLineItem implements Serializable {
 	private Double Discount_Channel;
 	private Double Discount_Program_Amount;
 	private Double SRP_USD;
+	private Boolean Partner_Incentive_Eligible_Flag;
 
 	public String getOrder_ID() {
 		return this.Order_ID;
@@ -96,6 +97,14 @@ public class OrderLineItem implements Serializable {
 	public void setSRP_USD(Double SRP_USD) {
 		this.SRP_USD = SRP_USD;
 	}
+
+	public Boolean getPartner_Incentive_Eligible_Flag() {
+                return this.Partner_Incentive_Eligible_Flag;
+        }
+
+	public void setPartner_Incentive_Eligible_Flag(Boolean flag) {
+                this.Partner_Incentive_Eligible_Flag = flag;
+        }
 
 	public OrderLineItem(String Order_ID, String OrderLine_ID, String Product_Type, String Edition, String SKU_Marketing, String Product_Line_ID, Double Discount_Program, Double Discount_Channel, Double Discount_Program_Amount, Double SRP_USD) {
 		this.Order_ID = Order_ID;
