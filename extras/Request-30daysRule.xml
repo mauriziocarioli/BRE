@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<batch-execution>
+    <insert out-identifier="BREObjectSFDC" return-object="true">
+      <object xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="citrite.BREObjectSFDC">
+            <Request>
+                <Order>
+                    <OrderHeader>
+                        <Order_Type>Z003</Order_Type>
+                        <Order_ID>0002541033</Order_ID>
+                        <Order_Amount>7128.15</Order_Amount>
+                        <Award_Type>null</Award_Type>
+                        <Contract_Type>null</Contract_Type>
+                        <Contract_Level>null</Contract_Level>
+                        <Contract_No>null</Contract_No>
+                        <Order_Creation_Date>2019-02-15T00:00:00</Order_Creation_Date>
+                        <Order_Matched_Date>2019-02-15T09:54:01</Order_Matched_Date>
+                        <Matched_Registration_ID>Rwd-0896848</Matched_Registration_ID>
+                        <Shared_Reward_Flag>false</Shared_Reward_Flag>
+                        <New_Customer_Flag>false</New_Customer_Flag>
+                        <PO_Date>2019-02-15T00:00:00</PO_Date>
+                        <PO_Number>test_NFD_SMB_02</PO_Number>
+                        <Valdidation_Status>null</Valdidation_Status>
+                        <Failure_Reasons   />
+                        <Total_Partner_Eligible_Amount>0.0</Total_Partner_Eligible_Amount>
+                        <Total_Promo_Amount>0.0</Total_Promo_Amount>
+                        <Total_Base_Amount>0.0</Total_Base_Amount>
+                        <OrderDiscounts/>
+                        <Distribution_Channel>05</Distribution_Channel>
+                    </OrderHeader>
+                </Order>
+                <RewardRegistration>
+                    <Registration_ID>Rwd-0896848</Registration_ID>
+                    <Incentive_Type>Citrix Ultimate Rewards</Incentive_Type>
+                    <Reward_Submitted_Date>2019-02-12T09:24:12</Reward_Submitted_Date>
+                    <BackendApplicable_Flag>false</BackendApplicable_Flag>
+                    <FrontendApplicable_Flag>false</FrontendApplicable_Flag>
+                    <Initial_Submitted_Date>2019-02-16T00:00:00</Initial_Submitted_Date>
+                </RewardRegistration>
+                <OriginalOrder>
+                    <Creation_Date>0001-01-01T00:00:00</Creation_Date>
+                    <PO_Date>0001-01-01T00:00:00</PO_Date>
+                    <Document_Date>0001-01-01T00:00:00</Document_Date>
+                </OriginalOrder>
+            </Request>     
+        </object>
+    </insert>
+    <fire-all-rules out-identifier="firedActivations"/>
+</batch-execution>

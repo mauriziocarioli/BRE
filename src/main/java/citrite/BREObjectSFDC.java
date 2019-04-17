@@ -2,6 +2,7 @@ package citrite;
 
 import java.io.Serializable;
 import java.util.List;
+import java.util.ArrayList;
 import java.util.Date;
 
 public class BREObjectSFDC implements Serializable {
@@ -38,16 +39,25 @@ public class BREObjectSFDC implements Serializable {
 	}
 
 	public void registerValidation(String orderID, String checkName, String checkType, String checkResult, Boolean header) {
-
-		Validation validation = new Validation();
+        
+        if (Validations == null) {
+            this.Validations = new ArrayList<Validation>();
+            System.out.println("BRE|BREObjectSFDC.registerValidation> created empty list of validations");
+        }
+        
+        Validation validation = new Validation();
+        
         validation.setOrderID(orderID);
         validation.setCheckName(checkName);
         validation.setCheckType(checkType);
         validation.setCheckResult(checkResult);
         validation.setHeader(header);
         validation.setCheckDate(new Date());
-		this.Validations.add(validation);
-
+        
+        this.Validations.add(validation);
+        
+        System.out.println("BRE|BREObjectSFDC.registerValidation> added validation to list");        
+        
 	}
 
 	public String getPayout() {

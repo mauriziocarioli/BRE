@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<object xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="citrite.BREObjectSFDC">
+	<net.citrite.pip.canonical.bre.BREObjectSFDC>
+		<request>
+			<order>
+				<orderHeader>
+					<order_Type>Z003</order_Type>
+					<order_ID>0002541033</order_ID>
+					<order_Amount>7128.15</order_Amount>
+					<award_Type>null</award_Type>
+					<contract_Type>null</contract_Type>
+					<contract_Level>null</contract_Level>
+					<contract_No>null</contract_No>
+					<crder_Creation_Date>2019-02-15T00:00:00</crder_Creation_Date>
+					<crder_Matched_Date>2019-02-15T09:54:01</crder_Matched_Date>
+					<matched_Registration_ID>Rwd-0896848</matched_Registration_ID>
+					<shared_Reward_Flag>false</shared_Reward_Flag>
+					<new_Customer_Flag>false</new_Customer_Flag>
+					<po_Date>2019-02-15T00:00:00</po_Date>
+					<po_Number>test_NFD_SMB_02</po_Number>
+					<validation_Status>null</validation_Status>
+					<failure_Reasons />
+					<total_Partner_Eligible_Amount>0.0</total_Partner_Eligible_Amount>
+					<total_Promo_Amount>0.0</total_Promo_Amount>
+					<total_Base_Amount>0.0</total_Base_Amount>
+					<orderDiscounts />
+					<distribution_Channel>05</distribution_Channel>
+				</orderHeader>
+				<orderLineItems>
+					<order_ID>0002541033</order_ID>
+					<orderLine_ID>OLI-00491693</orderLine_ID>
+					<product_Type>software</product_Type>
+					<edition>sTANDARD</edition>
+					<sku_Marketing>000000000004034076</sku_Marketing>
+					<product_Line_ID>5118</product_Line_ID>
+					<discount_Program>0.00</discount_Program>
+					<discount_Channel>0.00</discount_Channel>
+					<discount_Program_Amount>0.00</discount_Program_Amount>
+					<srp_usd>700.00</srp_usd>
+					<srp_Order_Currency>700.00</srp_Order_Currency>
+					<quantity>10</quantity>
+					<partner_Incentive_Eligible_Flag>false</partner_Incentive_Eligible_Flag>
+					<partner_Eligible>false</partner_Eligible>
+					<failure_Reasons>null</failure_Reasons>
+					<cert_Required_Flag>true</cert_Required_Flag>
+					<profit_Center>0001000200</profit_Center>
+					<aag>V1</aag>
+					<partner_Eligible_Amount>0.0</partner_Eligible_Amount>
+					<promo_Amount>0.0</promo_Amount>
+					<base_Amount>0.0</base_Amount>
+					<partner_Incentive_Group>X</partner_Incentive_Group>
+					<transitionPath>X</transitionPath>
+					<orderDiscounts />
+					<purchase_Type>12</purchase_Type>
+					<rTM_Material>4</rTM_Material>
+					<strategicProgramsPromos>X</strategicProgramsPromos>
+					<billing_Frequency>null</billing_Frequency>
+				</orderLineItems>
+				<orderLineItems>
+					<order_ID>0002541033</order_ID>
+					<orderLine_ID>OLI-00491694</orderLine_ID>
+					<product_Type>software</product_Type>
+					<edition>sTANDARD</edition>
+					<sKU_Marketing>000000000003013050</sKU_Marketing>
+					<product_Line_ID>5118</product_Line_ID>
+					<discount_Program>0.00</discount_Program>
+					<discount_Channel>0.00</discount_Channel>
+					<discount_Program_Amount>0.00</discount_Program_Amount>
+					<sRP_USD>3050.00</sRP_USD>
+					<sRP_Order_Currency>3050.00</sRP_Order_Currency>
+					<quantity>10</quantity>
+					<partner_Incentive_Eligible_Flag>true</partner_Incentive_Eligible_Flag>
+					<partner_Eligible>false</partner_Eligible>
+					<failure_Reasons>null</failure_Reasons>
+					<cert_Required_Flag>true</cert_Required_Flag>
+					<profit_Center>0001000200</profit_Center>
+					<aAG>A1</aAG>
+					<partner_Eligible_Amount>0.0</partner_Eligible_Amount>
+					<promo_Amount>0.0</promo_Amount>
+					<base_Amount>0.0</base_Amount>
+					<partner_Incentive_Group>X</partner_Incentive_Group>
+					<transitionPath>X</transitionPath>
+					<orderDiscounts />
+					<purchase_Type>4</purchase_Type>
+					<rTM_Material>4</rTM_Material>
+					<strategicProgramsPromos>X</strategicProgramsPromos>
+					<billing_Frequency>null</billing_Frequency>
+				</orderLineItems>
+				<orderLineItems>
+					<order_ID>0002541033</order_ID>
+					<orderLine_ID>OLI-00491695</orderLine_ID>
+					<product_Type>software</product_Type>
+					<edition>FEATURE</edition>
+					<sKU_Marketing>000000000003016825</sKU_Marketing>
+					<product_Line_ID>5214</product_Line_ID>
+					<discount_Program>0.00</discount_Program>
+					<discount_Channel>0.00</discount_Channel>
+					<discount_Program_Amount>0.00</discount_Program_Amount>
+					<sRP_USD>3378.15</sRP_USD>
+					<sRP_Order_Currency>3378.15</sRP_Order_Currency>
+					<quantity>15</quantity>
+					<partner_Incentive_Eligible_Flag>true</partner_Incentive_Eligible_Flag>
+					<partner_Eligible>false</partner_Eligible>
+					<failure_Reasons>null</failure_Reasons>
+					<cert_Required_Flag>true</cert_Required_Flag>
+					<profit_Center>0001000429</profit_Center>
+					<aAG>Z1</aAG>
+					<partner_Eligible_Amount>0.0</partner_Eligible_Amount>
+					<promo_Amount>0.0</promo_Amount>
+					<base_Amount>0.0</base_Amount>
+					<partner_Incentive_Group>X</partner_Incentive_Group>
+					<transitionPath>X</transitionPath>
+					<orderDiscounts />
+					<purchase_Type>4</purchase_Type>
+					<rTM_Material>4</rTM_Material>
+					<strategicProgramsPromos>X</strategicProgramsPromos>
+					<billing_Frequency>null</billing_Frequency>
+				</orderLineItems>
+			</order>
+			<rewardRegistration>
+				<registration_ID>Rwd-0896848</registration_ID>
+				<incentive_Type>Citrix Ultimate Rewards</incentive_Type>
+				<reward_Submitted_Date>2019-02-12T09:24:12</reward_Submitted_Date>
+				<backendApplicable_Flag>false</backendApplicable_Flag>
+				<frontendApplicable_Flag>false</frontendApplicable_Flag>
+				<initial_Submitted_Date>2019-02-15T00:00:00</initial_Submitted_Date>
+			</rewardRegistration>
+			<partnerInfo>
+				<tags>
+					<tagID>pTN-115228</tagID>
+					<tagName>s-PAM: AMS</tagName>
+				</tags>
+				<partner_Type>CSN</partner_Type>
+				<partner_Level>pLATINUM</partner_Level>
+				<partner_Status>Current</partner_Status>
+				<partner_Geo>Americas</partner_Geo>
+				<partner_Area>Americas SMB Sales</partner_Area>
+				<partner_Region>US Small Business</partner_Region>
+				<partner_Territory>Central/West SMB</partner_Territory>
+				<partner_Compliance>Compliant</partner_Compliance>
+				<partner_Mship_Start_Date>2018-02-06T12:00:00</partner_Mship_Start_Date>
+				<partner_Mship_End_Date>2019-02-28T12:00:00</partner_Mship_End_Date>
+				<partner_Mship_Inception_Date>1996-03-15T12:00:00</partner_Mship_Inception_Date>
+			</partnerInfo>
+			<partnerFunctions>
+				<billTo_Partner_Name>XYZ Org</billTo_Partner_Name>
+				<billTo_Address_Line1>billing Address Line 1</billTo_Address_Line1>
+				<billTo_Address_Line2>billing Address Line 2</billTo_Address_Line2>
+				<billTo_City>billing City</billTo_City>
+				<billTo_State>billing State</billTo_State>
+				<billTo_Country>null</billTo_Country>
+				<billTo_Postal_Code>111111</billTo_Postal_Code>
+				<billTo_District>billing District</billTo_District>
+				<billTo_Email_Address>null</billTo_Email_Address>
+				<billTo_User_Country_Code>null</billTo_User_Country_Code>
+				<soldTo_Partner_Name>XYZ Org</soldTo_Partner_Name>
+				<soldTo_Address_Line1>sold to Line 1</soldTo_Address_Line1>
+				<soldTo_Address_Line2>22222</soldTo_Address_Line2>
+				<soldTo_City>soldto City</soldTo_City>
+				<soldTo_State>sold to State</soldTo_State>
+				<soldTo_Country>US</soldTo_Country>
+				<soldTo_Postal_Code>02155</soldTo_Postal_Code>
+				<soldTo_District>District</soldTo_District>
+				<soldTo_Email_Address>null</soldTo_Email_Address>
+				<soldTo_User_Country_Code>null</soldTo_User_Country_Code>
+				<shipTo_Partner_Name>shipto APrtner</shipTo_Partner_Name>
+				<shipTo_Address_Line1>shipTo_Address_Line1</shipTo_Address_Line1>
+				<shipTo_Address_Line2>null</shipTo_Address_Line2>
+				<shipTo_City>zxc</shipTo_City>
+				<shipTo_State>za</shipTo_State>
+				<shipTo_Country>US</shipTo_Country>
+				<shipTo_Postal_Code />
+				<shipTo_District>null</shipTo_District>
+				<shipTo_Email_Address>null</shipTo_Email_Address>
+				<shipTo_User_Country_Code>null</shipTo_User_Country_Code>
+			</partnerFunctions>
+			<originalOrder>
+				<creation_Date>0001-01-01T00:00:00</creation_Date>
+				<pO_Date>0001-01-01T00:00:00</pO_Date>
+				<document_Date>0001-01-01T00:00:00</document_Date>
+			</originalOrder>
+			<salesExceptions />
+			<productAuthorizations>
+				<product_Line_ID>5246</product_Line_ID>
+				<cert_Status>certified</cert_Status>
+			</productAuthorizations>
+			<productAuthorizations>
+				<product_Line_ID>5256</product_Line_ID>
+				<cert_Status>certified</cert_Status>
+			</productAuthorizations>
+			<productAuthorizations>
+				<product_Line_ID>5258</product_Line_ID>
+				<cert_Status>certified</cert_Status>
+			</productAuthorizations>
+			<productAuthorizations>
+				<product_Line_ID>5257</product_Line_ID>
+				<cert_Status>certified</cert_Status>
+			</productAuthorizations>
+			<productAuthorizations>
+				<product_Line_ID>5132</product_Line_ID>
+				<cert_Status>certified</cert_Status>
+			</productAuthorizations>
+			<productAuthorizations>
+				<product_Line_ID>5118</product_Line_ID>
+				<cert_Status>certified</cert_Status>
+			</productAuthorizations>
+			<productAuthorizations>
+				<product_Line_ID>5174</product_Line_ID>
+				<cert_Status>Authorized</cert_Status>
+			</productAuthorizations>
+			<productAuthorizations>
+				<product_Line_ID>5147</product_Line_ID>
+				<cert_Status>certified</cert_Status>
+			</productAuthorizations>
+			<productAuthorizations>
+				<product_Line_ID>5175</product_Line_ID>
+				<cert_Status>certified</cert_Status>
+			</productAuthorizations>
+			<productAuthorizations>
+				<product_Line_ID>5158</product_Line_ID>
+				<cert_Status>certified</cert_Status>
+			</productAuthorizations>
+			<productAuthorizations>
+				<product_Line_ID>5143</product_Line_ID>
+				<cert_Status>Authorized</cert_Status>
+			</productAuthorizations>
+			<productAuthorizations>
+				<product_Line_ID>5203</product_Line_ID>
+				<cert_Status>Authorized</cert_Status>
+			</productAuthorizations>
+			<productAuthorizations>
+				<product_Line_ID>5206</product_Line_ID>
+				<cert_Status>Authorized</cert_Status>
+			</productAuthorizations>
+			<productAuthorizations>
+				<product_Line_ID>5225</product_Line_ID>
+				<cert_Status>certified</cert_Status>
+			</productAuthorizations>
+			<productAuthorizations>
+				<product_Line_ID>5140</product_Line_ID>
+				<cert_Status>Authorized</cert_Status>
+			</productAuthorizations>
+			<productAuthorizations>
+				<product_Line_ID>5208</product_Line_ID>
+				<cert_Status>Authorized</cert_Status>
+			</productAuthorizations>
+			<productAuthorizations>
+				<product_Line_ID>5215</product_Line_ID>
+				<cert_Status>Authorized</cert_Status>
+			</productAuthorizations>
+			<productAuthorizations>
+				<product_Line_ID>5213</product_Line_ID>
+				<cert_Status>Authorized</cert_Status>
+			</productAuthorizations>
+			<productAuthorizations>
+				<product_Line_ID>5214</product_Line_ID>
+				<cert_Status>certified</cert_Status>
+			</productAuthorizations>
+			<productAuthorizations>
+				<product_Line_ID>5219</product_Line_ID>
+				<cert_Status>Authorized</cert_Status>
+			</productAuthorizations>
+			<productAuthorizations>
+				<product_Line_ID>5243</product_Line_ID>
+				<cert_Status>certified</cert_Status>
+			</productAuthorizations>
+			<productAuthorizations>
+				<product_Line_ID>5249</product_Line_ID>
+				<cert_Status>certified</cert_Status>
+			</productAuthorizations>
+			<productAuthorizations>
+				<product_Line_ID>5255</product_Line_ID>
+				<cert_Status>certified</cert_Status>
+			</productAuthorizations>
+			<productAuthorizations>
+				<product_Line_ID>5205</product_Line_ID>
+				<cert_Status>Authorized</cert_Status>
+			</productAuthorizations>
+			<productAuthorizations>
+				<product_Line_ID>5210</product_Line_ID>
+				<cert_Status>certified</cert_Status>
+			</productAuthorizations>
+			<productAuthorizations>
+				<product_Line_ID>5191</product_Line_ID>
+				<cert_Status>Authorized</cert_Status>
+			</productAuthorizations>
+			<productAuthorizations>
+				<product_Line_ID>5253</product_Line_ID>
+				<cert_Status>certified</cert_Status>
+			</productAuthorizations>
+			<productAuthorizations>
+				<product_Line_ID>5250</product_Line_ID>
+				<cert_Status>certified</cert_Status>
+			</productAuthorizations>
+			<productAuthorizations>
+				<product_Line_ID>5251</product_Line_ID>
+				<cert_Status>certified</cert_Status>
+			</productAuthorizations>
+			<productAuthorizations>
+				<product_Line_ID>5252</product_Line_ID>
+				<cert_Status>certified</cert_Status>
+			</productAuthorizations>
+			<endUserInfo>
+				<end_User_Org_ID>51535787</end_User_Org_ID>
+				<end_User_Geo>Americas</end_User_Geo>
+				<end_User_Area>Americas SMB, Mid-Market, &amp; Renewal Sales</end_User_Area>
+				<end_User_Territory>US Northeast MB</end_User_Territory>
+				<end_User_Region>US North MB1</end_User_Region>
+				<end_User_Email_Address>dreher@shelton-cook.com</end_User_Email_Address>
+				<high_Touch_Flag>false</high_Touch_Flag>
+			</endUserInfo>
+			<specializations>
+				<systemName>virtualization</systemName>
+				<status>active</status>
+				<bre_Status>Not Achieved</bre_Status>
+				<AddData>
+					<value>2015-06-15 00:00:00</value>
+					<key>award Date</key>
+				</AddData>
+			</specializations>
+			<specializations>
+				<systemName>NetworkingforApps&amp;MobileSecurity</systemName>
+				<status>active</status>
+				<bre_Status>Not Achieved</bre_Status>
+				<AddData>
+					<key>award Date</key>
+					<value>2015-06-24 00:00:00</value>
+				</AddData>
+			</specializations>
+			<specializations>
+				<systemName>NetworkingforDataCenter</systemName>
+				<status>active</status>
+				<bre_Status>Not Achieved</bre_Status>
+				<AddData>
+					<key>award Date</key>
+					<value>2015-08-28 00:00:00</value>
+				</AddData>
+			</specializations>
+			<specializations>
+				<systemName>MobileManagement</systemName>
+				<status>active</status>
+				<bre_Status>Not Achieved</bre_Status>
+				<dddData>
+					<awardDate>2015-09-01 00:00:00</awardDate>
+				</dddData>
+			</specializations>
+		</request>
+		<Validations>
+			<checkName>Minimum Order Amount Requirement Unmet</checkName>
+			<checkDate>2019-02-19T10:42:15.3465419-05:00</checkDate>
+			<checkResult>FAIL</checkResult>
+			<header>true</header>
+			<orderID>0002541033</orderID>
+			<checkType>EXCEPTION</checkType>
+			<mergedStatus>false</mergedStatus>
+		</Validations>
+		<Payout />
+		<info>
+			<request_DateTime>2019-02-15T09:54:01</request_DateTime>
+			<response_DateTime>2019-02-15T09:54:01</response_DateTime>
+			<status />
+			<interaction_Id>533200ce-389e-1dd4-f187-929e22a40d26</interaction_Id>
+			<source>SFDC</source>
+		</info>
+	</net.citrite.pip.canonical.bre.BREObjectSFDC>
+</object>
