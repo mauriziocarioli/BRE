@@ -1,4 +1,4 @@
-package net.citrite.pip.salesforce;
+package citrite;
 
 import java.io.Serializable;
 

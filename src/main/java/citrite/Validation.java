@@ -1,4 +1,4 @@
-package net.citrite.pip.bre;
+package citrite;
 
 import java.io.Serializable;
 import java.util.Date;

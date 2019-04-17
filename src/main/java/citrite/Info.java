@@ -1,4 +1,4 @@
-package net.citrite.pip.sfdc;
+package citrite;
 
 import java.io.Serializable;
 import java.util.Date;

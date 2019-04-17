@@ -1,9 +1,7 @@
-package net.citrite.pip.sfdc;
+package citrite;
 
 import java.io.Serializable;
 import java.util.List;
-import net.citrite.pip.salesforce.Specialization;
-import net.citrite.pip.salesforce.AuthorizationItem;
 
 public class Request implements Serializable {
 

@@ -1,4 +1,4 @@
-package net.citrite.pip.sfdc;
+package citrite;
 
 import java.io.Serializable;
 import java.util.List;
@@ -9,7 +9,6 @@ public class Order implements Serializable {
 	
 	private OrderHeader OrderHeader;
 	private List<OrderLineItem> OrderLineItems;
-	private Double orderTotalSRP;
 
 	public OrderHeader getOrderHeader() {
 		return this.OrderHeader;

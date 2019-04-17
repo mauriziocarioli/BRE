@@ -1,11 +1,8 @@
-package net.citrite.pip.canonical.bre;
+package citrite;
 
 import java.io.Serializable;
 import java.util.List;
 import java.util.Date;
-import net.citrite.pip.bre.Validation;
-import net.citrite.pip.sfdc.Request;
-import net.citrite.pip.sfdc.Info;
 
 public class BREObjectSFDC implements Serializable {
 
