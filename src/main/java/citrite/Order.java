@@ -27,8 +27,16 @@ public class Order implements Serializable {
 	}
 
 	public double getOrderTotalSRP() {
-	    //TODO
-        return 1000.00;
+		
+		double total = 0;
+	    for(int i = 0; i < this.getOrderLineItems().size(); i++) {
+	    	double srp = this.getOrderLineItems().get(i).getSRP_USD();
+	    	System.out.println("BRE|Order.getOrderTotalSRP> SRP for order line item "+this.getOrderLineItems().get(i).getOrderLine_ID()+" = "+srp);
+	    	total += this.getOrderLineItems().get(i).getSRP_USD();
+	    }
+	    System.out.println("BRE|Order.getOrderTotalSRP> total order SRP = "+total);
+        return total;
+        
 	}
 	
 	public boolean isFollowOn() {

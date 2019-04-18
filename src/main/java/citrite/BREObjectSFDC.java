@@ -1,6 +1,8 @@
 package citrite;
 
 import java.io.Serializable;
+import java.time.ZoneId;
+import java.time.temporal.ChronoUnit;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Date;
@@ -36,6 +38,19 @@ public class BREObjectSFDC implements Serializable {
 
 	public void setValidations(List<Validation> Validations) {
 		this.Validations = Validations;
+	}
+	
+	public long getDaysBetweenOriginalOrderCreationDateAndOrderCreationDate() {
+		
+		Date d1 = this.getRequest().getOriginalOrder().getCreation_Date();
+		Date d2 = this.getRequest().getOrder().getOrderHeader().getOrder_Creation_Date();
+		long n = ChronoUnit.DAYS.between(
+					d1.toInstant().atZone(ZoneId.systemDefault()).toLocalDate(), 
+					d2.toInstant().atZone(ZoneId.systemDefault()).toLocalDate()
+				 );
+		
+		return n;
+		
 	}
 
 	public void registerValidation(String orderID, String checkName, String checkType, String checkResult, Boolean header) {

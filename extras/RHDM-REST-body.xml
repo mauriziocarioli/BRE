@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<batch-execution>
+	<insert out-identifier="BREObjectSFDC" return-object="true">
+		<object xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:type="breObjectSFDC">
+			<Request>
+				<Order>
+					<OrderHeader>
+						<Order_Type>Z003</Order_Type>
+						<Order_ID>0002541033</Order_ID>
+						<Order_Amount>7128.15</Order_Amount>
+						<Award_Type>null</Award_Type>
+						<Contract_Type>null</Contract_Type>
+						<Contract_Level>null</Contract_Level>
+						<Contract_No>null</Contract_No>
+						<Order_Creation_Date>2019-02-15T00:00:00</Order_Creation_Date>
+						<Order_Matched_Date>2019-02-15T09:54:01</Order_Matched_Date>
+						<Matched_Registration_ID>Rwd-0896848</Matched_Registration_ID>
+						<Shared_Reward_Flag>false</Shared_Reward_Flag>
+						<New_Customer_Flag>false</New_Customer_Flag>
+						<PO_Date>2019-02-15T00:00:00</PO_Date>
+						<PO_Number>test_NFD_SMB_02</PO_Number>
+						<Validation_Status>null</Validation_Status>
+						<Failure_Reasons />
+						<Total_Partner_Eligible_Amount>0.0</Total_Partner_Eligible_Amount>
+						<Total_Promo_Amount>0.0</Total_Promo_Amount>
+						<Total_Base_Amount>0.0</Total_Base_Amount>
+						<OrderDiscounts />
+						<Distribution_Channel>05</Distribution_Channel>
+					</OrderHeader>
+					<OrderLineItems>
+						<Order_ID>0002541033</Order_ID>
+						<OrderLine_ID>OLI-00491693</OrderLine_ID>
+						<Product_Type>Software</Product_Type>
+						<Edition>STANDARD</Edition>
+						<SKU_Marketing>000000000004034076</SKU_Marketing>
+						<Product_Line_ID>5118</Product_Line_ID>
+						<Discount_Program>0.00</Discount_Program>
+						<Discount_Channel>0.00</Discount_Channel>
+						<Discount_Program_Amount>0.00</Discount_Program_Amount>
+						<SRP_USD>700.00</SRP_USD>
+						<SRP_Order_Currency>700.00</SRP_Order_Currency>
+						<Quantity>10</Quantity>
+						<Partner_Incentive_Eligible_Flag>false
+						</Partner_Incentive_Eligible_Flag>
+						<Partner_Eligible>false</Partner_Eligible>
+						<Failure_Reasons>null</Failure_Reasons>
+						<Cert_Required_Flag>true</Cert_Required_Flag>
+						<Profit_Center>0001000200</Profit_Center>
+						<AAG>V1</AAG>
+						<Partner_Eligible_Amount>0.0</Partner_Eligible_Amount>
+						<Promo_Amount>0.0</Promo_Amount>
+						<Base_Amount>0.0</Base_Amount>
+						<Partner_Incentive_Group>X</Partner_Incentive_Group>
+						<TransitionPath>X</TransitionPath>
+						<OrderDiscounts />
+						<Purchase_Type>12</Purchase_Type>
+						<RTM_Material>4</RTM_Material>
+						<StrategicProgramsPromos>X</StrategicProgramsPromos>
+						<Billing_Frequency>null</Billing_Frequency>
+					</OrderLineItems>
+					<OrderLineItems>
+						<Order_ID>0002541033</Order_ID>
+						<OrderLine_ID>OLI-00491694</OrderLine_ID>
+						<Product_Type>Software</Product_Type>
+						<Edition>STANDARD</Edition>
+						<SKU_Marketing>000000000003013050</SKU_Marketing>
+						<Product_Line_ID>5118</Product_Line_ID>
+						<Discount_Program>0.00</Discount_Program>
+						<Discount_Channel>0.00</Discount_Channel>
+						<Discount_Program_Amount>0.00</Discount_Program_Amount>
+						<SRP_USD>3050.00</SRP_USD>
+						<SRP_Order_Currency>3050.00</SRP_Order_Currency>
+						<Quantity>10</Quantity>
+						<Partner_Incentive_Eligible_Flag>true
+						</Partner_Incentive_Eligible_Flag>
+						<Partner_Eligible>false</Partner_Eligible>
+						<Failure_Reasons>null</Failure_Reasons>
+						<Cert_Required_Flag>true</Cert_Required_Flag>
+						<Profit_Center>0001000200</Profit_Center>
+						<AAG>A1</AAG>
+						<Partner_Eligible_Amount>0.0</Partner_Eligible_Amount>
+						<Promo_Amount>0.0</Promo_Amount>
+						<Base_Amount>0.0</Base_Amount>
+						<Partner_Incentive_Group>X</Partner_Incentive_Group>
+						<TransitionPath>X</TransitionPath>
+						<OrderDiscounts />
+						<Purchase_Type>4</Purchase_Type>
+						<RTM_Material>4</RTM_Material>
+						<StrategicProgramsPromos>X</StrategicProgramsPromos>
+						<Billing_Frequency>null</Billing_Frequency>
+					</OrderLineItems>
+					<OrderLineItems>
+						<Order_ID>0002541033</Order_ID>
+						<OrderLine_ID>OLI-00491695</OrderLine_ID>
+						<Product_Type>Software</Product_Type>
+						<Edition>FEATURE</Edition>
+						<SKU_Marketing>000000000003016825</SKU_Marketing>
+						<Product_Line_ID>5214</Product_Line_ID>
+						<Discount_Program>0.00</Discount_Program>
+						<Discount_Channel>0.00</Discount_Channel>
+						<Discount_Program_Amount>0.00</Discount_Program_Amount>
+						<SRP_USD>3378.15</SRP_USD>
+						<SRP_Order_Currency>3378.15</SRP_Order_Currency>
+						<Quantity>15</Quantity>
+						<Partner_Incentive_Eligible_Flag>true
+						</Partner_Incentive_Eligible_Flag>
+						<Partner_Eligible>false</Partner_Eligible>
+						<Failure_Reasons>null</Failure_Reasons>
+						<Cert_Required_Flag>true</Cert_Required_Flag>
+						<Profit_Center>0001000429</Profit_Center>
+						<AAG>Z1</AAG>
+						<Partner_Eligible_Amount>0.0</Partner_Eligible_Amount>
+						<Promo_Amount>0.0</Promo_Amount>
+						<Base_Amount>0.0</Base_Amount>
+						<Partner_Incentive_Group>X</Partner_Incentive_Group>
+						<TransitionPath>X</TransitionPath>
+						<OrderDiscounts />
+						<Purchase_Type>4</Purchase_Type>
+						<RTM_Material>4</RTM_Material>
+						<StrategicProgramsPromos>X</StrategicProgramsPromos>
+						<Billing_Frequency>null</Billing_Frequency>
+					</OrderLineItems>
+				</Order>
+				<RewardRegistration>
+					<Registration_ID>Rwd-0896848</Registration_ID>
+					<Incentive_Type>Citrix Ultimate Rewards</Incentive_Type>
+					<Reward_Submitted_Date>2019-02-12T09:24:12</Reward_Submitted_Date>
+					<BackendApplicable_Flag>false</BackendApplicable_Flag>
+					<FrontendApplicable_Flag>false</FrontendApplicable_Flag>
+					<Initial_Submitted_Date>2019-02-16T00:00:00
+					</Initial_Submitted_Date>
+				</RewardRegistration>
+				<PartnerInfo>
+					<Tags>
+						<TagID>PTN-115228</TagID>
+						<TagName>S-PAM: AMS</TagName>
+					</Tags>
+					<Partner_Type>CSN</Partner_Type>
+					<Partner_Level>PLATINUM</Partner_Level>
+					<Partner_Status>Current</Partner_Status>
+					<Partner_Geo>Americas</Partner_Geo>
+					<Partner_Area>Americas SMB Sales</Partner_Area>
+					<Partner_Region>US Small Business</Partner_Region>
+					<Partner_Territory>Central/West SMB</Partner_Territory>
+					<Partner_Compliance>Compliant</Partner_Compliance>
+					<Partner_Mship_Start_Date>2018-02-06T12:00:00
+					</Partner_Mship_Start_Date>
+					<Partner_Mship_End_Date>2019-02-28T12:00:00
+					</Partner_Mship_End_Date>
+					<Partner_Mship_Inception_Date>1996-03-15T12:00:00
+					</Partner_Mship_Inception_Date>
+				</PartnerInfo>
+				<PartnerFunctions>
+					<BillTo_Partner_Name>XYZ Org</BillTo_Partner_Name>
+					<BillTo_Address_Line1>Billing Address Line 1</BillTo_Address_Line1>
+					<BillTo_Address_Line2>Billing Address Line 2</BillTo_Address_Line2>
+					<BillTo_City>Billing City</BillTo_City>
+					<BillTo_State>Billing State</BillTo_State>
+					<BillTo_Country>null</BillTo_Country>
+					<BillTo_Postal_Code>111111</BillTo_Postal_Code>
+					<BillTo_District>Billing District</BillTo_District>
+					<BillTo_Email_Address>null</BillTo_Email_Address>
+					<BillTo_User_Country_Code>null</BillTo_User_Country_Code>
+					<SoldTo_Partner_Name>XYZ Org</SoldTo_Partner_Name>
+					<SoldTo_Address_Line1>Sold to Line 1</SoldTo_Address_Line1>
+					<SoldTo_Address_Line2>22222</SoldTo_Address_Line2>
+					<SoldTo_City>Soldto City</SoldTo_City>
+					<SoldTo_State>Sold to State</SoldTo_State>
+					<SoldTo_Country>US</SoldTo_Country>
+					<SoldTo_Postal_Code>02155</SoldTo_Postal_Code>
+					<SoldTo_District>District</SoldTo_District>
+					<SoldTo_Email_Address>null</SoldTo_Email_Address>
+					<SoldTo_User_Country_Code>null</SoldTo_User_Country_Code>
+					<ShipTo_Partner_Name>Shipto APrtner</ShipTo_Partner_Name>
+					<ShipTo_Address_Line1>ShipTo_Address_Line1</ShipTo_Address_Line1>
+					<ShipTo_Address_Line2>null</ShipTo_Address_Line2>
+					<ShipTo_City>zxc</ShipTo_City>
+					<ShipTo_State>za</ShipTo_State>
+					<ShipTo_Country>US</ShipTo_Country>
+					<ShipTo_Postal_Code />
+					<ShipTo_District>null</ShipTo_District>
+					<ShipTo_Email_Address>null</ShipTo_Email_Address>
+					<ShipTo_User_Country_Code>null</ShipTo_User_Country_Code>
+				</PartnerFunctions>
+				<OriginalOrder>
+					<Creation_Date>0001-01-01T00:00:00</Creation_Date>
+					<PO_Date>0001-01-01T00:00:00</PO_Date>
+					<Document_Date>0001-01-01T00:00:00</Document_Date>
+				</OriginalOrder>
+				<SalesExceptions />
+				<ProductAuthorizations>
+					<Product_Line_ID>5246</Product_Line_ID>
+					<Cert_Status>Certified</Cert_Status>
+				</ProductAuthorizations>
+				<ProductAuthorizations>
+					<Product_Line_ID>5256</Product_Line_ID>
+					<Cert_Status>Certified</Cert_Status>
+				</ProductAuthorizations>
+				<ProductAuthorizations>
+					<Product_Line_ID>5258</Product_Line_ID>
+					<Cert_Status>Certified</Cert_Status>
+				</ProductAuthorizations>
+				<ProductAuthorizations>
+					<Product_Line_ID>5257</Product_Line_ID>
+					<Cert_Status>Certified</Cert_Status>
+				</ProductAuthorizations>
+				<ProductAuthorizations>
+					<Product_Line_ID>5132</Product_Line_ID>
+					<Cert_Status>Certified</Cert_Status>
+				</ProductAuthorizations>
+				<ProductAuthorizations>
+					<Product_Line_ID>5118</Product_Line_ID>
+					<Cert_Status>Certified</Cert_Status>
+				</ProductAuthorizations>
+				<ProductAuthorizations>
+					<Product_Line_ID>5174</Product_Line_ID>
+					<Cert_Status>Authorized</Cert_Status>
+				</ProductAuthorizations>
+				<ProductAuthorizations>
+					<Product_Line_ID>5147</Product_Line_ID>
+					<Cert_Status>Certified</Cert_Status>
+				</ProductAuthorizations>
+				<ProductAuthorizations>
+					<Product_Line_ID>5175</Product_Line_ID>
+					<Cert_Status>Certified</Cert_Status>
+				</ProductAuthorizations>
+				<ProductAuthorizations>
+					<Product_Line_ID>5158</Product_Line_ID>
+					<Cert_Status>Certified</Cert_Status>
+				</ProductAuthorizations>
+				<ProductAuthorizations>
+					<Product_Line_ID>5143</Product_Line_ID>
+					<Cert_Status>Authorized</Cert_Status>
+				</ProductAuthorizations>
+				<ProductAuthorizations>
+					<Product_Line_ID>5203</Product_Line_ID>
+					<Cert_Status>Authorized</Cert_Status>
+				</ProductAuthorizations>
+				<ProductAuthorizations>
+					<Product_Line_ID>5206</Product_Line_ID>
+					<Cert_Status>Authorized</Cert_Status>
+				</ProductAuthorizations>
+				<ProductAuthorizations>
+					<Product_Line_ID>5225</Product_Line_ID>
+					<Cert_Status>Certified</Cert_Status>
+				</ProductAuthorizations>
+				<ProductAuthorizations>
+					<Product_Line_ID>5140</Product_Line_ID>
+					<Cert_Status>Authorized</Cert_Status>
+				</ProductAuthorizations>
+				<ProductAuthorizations>
+					<Product_Line_ID>5208</Product_Line_ID>
+					<Cert_Status>Authorized</Cert_Status>
+				</ProductAuthorizations>
+				<ProductAuthorizations>
+					<Product_Line_ID>5215</Product_Line_ID>
+					<Cert_Status>Authorized</Cert_Status>
+				</ProductAuthorizations>
+				<ProductAuthorizations>
+					<Product_Line_ID>5213</Product_Line_ID>
+					<Cert_Status>Authorized</Cert_Status>
+				</ProductAuthorizations>
+				<ProductAuthorizations>
+					<Product_Line_ID>5214</Product_Line_ID>
+					<Cert_Status>Certified</Cert_Status>
+				</ProductAuthorizations>
+				<ProductAuthorizations>
+					<Product_Line_ID>5219</Product_Line_ID>
+					<Cert_Status>Authorized</Cert_Status>
+				</ProductAuthorizations>
+				<ProductAuthorizations>
+					<Product_Line_ID>5243</Product_Line_ID>
+					<Cert_Status>Certified</Cert_Status>
+				</ProductAuthorizations>
+				<ProductAuthorizations>
+					<Product_Line_ID>5249</Product_Line_ID>
+					<Cert_Status>Certified</Cert_Status>
+				</ProductAuthorizations>
+				<ProductAuthorizations>
+					<Product_Line_ID>5255</Product_Line_ID>
+					<Cert_Status>Certified</Cert_Status>
+				</ProductAuthorizations>
+				<ProductAuthorizations>
+					<Product_Line_ID>5205</Product_Line_ID>
+					<Cert_Status>Authorized</Cert_Status>
+				</ProductAuthorizations>
+				<ProductAuthorizations>
+					<Product_Line_ID>5210</Product_Line_ID>
+					<Cert_Status>Certified</Cert_Status>
+				</ProductAuthorizations>
+				<ProductAuthorizations>
+					<Product_Line_ID>5191</Product_Line_ID>
+					<Cert_Status>Authorized</Cert_Status>
+				</ProductAuthorizations>
+				<ProductAuthorizations>
+					<Product_Line_ID>5253</Product_Line_ID>
+					<Cert_Status>Certified</Cert_Status>
+				</ProductAuthorizations>
+				<ProductAuthorizations>
+					<Product_Line_ID>5250</Product_Line_ID>
+					<Cert_Status>Certified</Cert_Status>
+				</ProductAuthorizations>
+				<ProductAuthorizations>
+					<Product_Line_ID>5251</Product_Line_ID>
+					<Cert_Status>Certified</Cert_Status>
+				</ProductAuthorizations>
+				<ProductAuthorizations>
+					<Product_Line_ID>5252</Product_Line_ID>
+					<Cert_Status>Certified</Cert_Status>
+				</ProductAuthorizations>
+				<EndUserInfo>
+					<End_User_Org_ID>51535787</End_User_Org_ID>
+					<End_User_Geo>Americas</End_User_Geo>
+					<End_User_Area>Americas SMB, Mid-Market, &amp; Renewal Sales
+					</End_User_Area>
+					<End_User_Territory>US Northeast MB</End_User_Territory>
+					<End_User_Region>US North MB1</End_User_Region>
+					<End_User_Email_Address>dreher@shelton-cook.com
+					</End_User_Email_Address>
+					<High_Touch_Flag>false</High_Touch_Flag>
+				</EndUserInfo>
+				<Specializations>
+					<SystemName>Virtualization</SystemName>
+					<Status>Active</Status>
+					<BRE_Status>Not Achieved</BRE_Status>
+					<AddData>
+						<Key>Award Date</Key>
+						<Value>2015-06-15 00:00:00</Value>
+					</AddData>
+				</Specializations>
+				<Specializations>
+					<SystemName>NetworkingforApps&amp;MobileSecurity</SystemName>
+					<Status>Active</Status>
+					<BRE_Status>Not Achieved</BRE_Status>
+					<AddData>
+						<Key>Award Date</Key>
+						<Value>2015-06-24 00:00:00</Value>
+					</AddData>
+				</Specializations>
+				<Specializations>
+					<SystemName>NetworkingforDataCenter</SystemName>
+					<Status>Active</Status>
+					<BRE_Status>Not Achieved</BRE_Status>
+					<AddData>
+						<Key>Award Date</Key>
+						<Value>2015-08-28 00:00:00</Value>
+					</AddData>
+				</Specializations>
+				<Specializations>
+					<SystemName>MobileManagement</SystemName>
+					<Status>Active</Status>
+					<BRE_Status>Not Achieved</BRE_Status>
+					<AddData>
+						<Key>Award Date</Key>
+						<Value>2015-09-01 00:00:00</Value>
+					</AddData>
+				</Specializations>
+			</Request>
+		</object>
+	</insert>
+	<fire-all-rules out-identifier="firedActivations" />
+	<dispose/>
+</batch-execution>
